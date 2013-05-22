@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal" >
+	    <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/tvCustomerExperienceMessage" />
+	</LinearLayout>
+	
+    <LinearLayout
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal" >
+	    <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/tvAge" />
+	</LinearLayout>
+	
+    <Spinner 
+        android:id="@+id/snrAge"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/snrAgePrompt" />
+	
+    <LinearLayout
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal" >
+	    <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/tvSex" />
+	</LinearLayout>
+	
+    <Spinner 
+	    android:id="@+id/snrSex"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:prompt="@string/snrSexPrompt" />
+	
+    <LinearLayout
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal" >
+	    <Button
+	        android:id="@+id/btnskip"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/btnskipText" />
+
+	    <Button
+	        android:id="@+id/btnNext"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/btnNextText" />
+
+	</LinearLayout>
+	
+    <LinearLayout
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal" >
+	    <TextView
+	        android:visibility="invisible"
+	        android:id="@+id/tvPleaseSelectSex"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/tvPleaseSelectSex" />
+	</LinearLayout>
+
+</LinearLayout>
