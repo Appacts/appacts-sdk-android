@@ -53,7 +53,7 @@ public final class Analytics implements IAnalytics {
 	private final String connectionString = "appacts.db";
 	private final int databaseVersion = 1;
     private String baseUrl = "";
-    private final boolean debugMode = true;
+    private final boolean debugMode = false;
   
     private UUID applicationId;
     private String applicationVersion;

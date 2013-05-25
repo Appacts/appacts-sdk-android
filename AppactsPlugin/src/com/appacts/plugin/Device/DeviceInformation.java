@@ -16,18 +16,11 @@ import com.appacts.plugin.Models.Resolution;
  
 public final class DeviceInformation implements IDeviceInformation {
         
-    private final static String pluginVersion = "0.9.950.900";
+    private final static String pluginVersion = "1.1.0.2322";
     private final Context context;
         
     public DeviceInformation(Context context) {    
     	this.context = context;
-    }
-    
-    @Deprecated  
-    public String GetDeviceId() {
-    	TelephonyManager telephonyManager =
-    			(TelephonyManager)context.getSystemService(Context.TELEPHONY_SERVICE);
-    	return telephonyManager.getDeviceId();
     }
     
     public int GetDeviceType() {
