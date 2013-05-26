@@ -7,6 +7,11 @@ Goto “AndroidManifest.xml” and add these permissions.
     <uses-permissionandroid:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
   
+  
+If you need help referencing .jar files check out our Wiki:
+
+https://github.com/Appacts/appacts-sdk-android/wiki/Referencing-Android-SDK
+  
 
 ###Basic Integration###
 
